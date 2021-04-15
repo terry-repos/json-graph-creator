@@ -1,4 +1,4 @@
-# JSON Graph Wrangler
+# JSON Graph Creator
 A node.js based library that maps csv / json / xml string data using a set of defined pipeline steps. A pipeline is defined in json (see pipeline folder) and specifies a sequential set of pipeline steps that describe input/output files, functions to transform the data, and parameters for those transformations. The library is written primarily to transform data into graph formats, including the ability to read connectivity matrices, find semantic links between entries and transform those into graphs. The library makes heavy use of the lodash js library.
 
 ## To run
